@@ -1,0 +1,192 @@
+CRITICAL - 2024-03-04 19:40:52 --> Error: Call to undefined method CodeIgniter\Database\MySQLi\Result::getArray()
+in APPPATH\Models\PersonajesModel.php on line 31.
+ 1 APPPATH\Controllers\Personajes.php(37): App\Models\PersonajesModel->personajesUniverso('2')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Personajes->pjsUniverso('2')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personajes))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Drummer\\Documents\\Apprende\\trainee-drangonball-backend\\public\\index.php')
+CRITICAL - 2024-03-04 19:50:39 --> BadMethodCallException: Call to undefined method App\Models\PersonajesModel::filtroUniverso
+in SYSTEMPATH\Model.php on line 874.
+ 1 APPPATH\Controllers\Personajes.php(37): CodeIgniter\Model->__call('filtroUniverso', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Personajes->buscarUniverso('2')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personajes))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Drummer\\Documents\\Apprende\\trainee-drangonball-backend\\public\\index.php')
+CRITICAL - 2024-03-04 19:50:47 --> BadMethodCallException: Call to undefined method App\Models\PersonajesModel::filtroUniverso
+in SYSTEMPATH\Model.php on line 874.
+ 1 APPPATH\Controllers\Personajes.php(37): CodeIgniter\Model->__call('filtroUniverso', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Personajes->buscarUniverso('1')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personajes))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Drummer\\Documents\\Apprende\\trainee-drangonball-backend\\public\\index.php')
+CRITICAL - 2024-03-04 19:50:59 --> BadMethodCallException: Call to undefined method App\Models\PersonajesModel::filtroUniverso
+in SYSTEMPATH\Model.php on line 874.
+ 1 APPPATH\Controllers\Personajes.php(37): CodeIgniter\Model->__call('filtroUniverso', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Personajes->buscarUniverso('1')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personajes))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Drummer\\Documents\\Apprende\\trainee-drangonball-backend\\public\\index.php')
+CRITICAL - 2024-03-04 19:52:09 --> BadMethodCallException: Call to undefined method App\Models\PersonajesModel::filtroUniverso
+in SYSTEMPATH\Model.php on line 874.
+ 1 APPPATH\Controllers\Personajes.php(37): CodeIgniter\Model->__call('filtroUniverso', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Personajes->buscarUniverso('1')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personajes))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Drummer\\Documents\\Apprende\\trainee-drangonball-backend\\public\\index.php')
+CRITICAL - 2024-03-04 19:52:28 --> BadMethodCallException: Call to undefined method App\Models\PersonajesModel::filtroUniverso
+in SYSTEMPATH\Model.php on line 874.
+ 1 APPPATH\Controllers\Personajes.php(37): CodeIgniter\Model->__call('filtroUniverso', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Personajes->buscarUniverso('1')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personajes))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Drummer\\Documents\\Apprende\\trainee-drangonball-backend\\public\\index.php')
+CRITICAL - 2024-03-04 19:52:33 --> BadMethodCallException: Call to undefined method App\Models\PersonajesModel::filtroUniverso
+in SYSTEMPATH\Model.php on line 874.
+ 1 APPPATH\Controllers\Personajes.php(37): CodeIgniter\Model->__call('filtroUniverso', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Personajes->buscarUniverso('2')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personajes))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Drummer\\Documents\\Apprende\\trainee-drangonball-backend\\public\\index.php')
+CRITICAL - 2024-03-04 19:52:51 --> BadMethodCallException: Call to undefined method App\Models\PersonajesModel::filtroUniverso
+in SYSTEMPATH\Model.php on line 874.
+ 1 APPPATH\Controllers\Personajes.php(37): CodeIgniter\Model->__call('filtroUniverso', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Personajes->buscarUniverso('2')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personajes))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Drummer\\Documents\\Apprende\\trainee-drangonball-backend\\public\\index.php')
+CRITICAL - 2024-03-04 19:52:55 --> BadMethodCallException: Call to undefined method App\Models\PersonajesModel::filtroUniverso
+in SYSTEMPATH\Model.php on line 874.
+ 1 APPPATH\Controllers\Personajes.php(37): CodeIgniter\Model->__call('filtroUniverso', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Personajes->buscarUniverso('1')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personajes))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Drummer\\Documents\\Apprende\\trainee-drangonball-backend\\public\\index.php')
+CRITICAL - 2024-03-04 19:54:02 --> BadMethodCallException: Call to undefined method App\Models\PersonajesModel::filtroUniverso
+in SYSTEMPATH\Model.php on line 874.
+ 1 APPPATH\Controllers\Personajes.php(37): CodeIgniter\Model->__call('filtroUniverso', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Personajes->buscarUniverso('1')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personajes))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Drummer\\Documents\\Apprende\\trainee-drangonball-backend\\public\\index.php')
+CRITICAL - 2024-03-04 19:54:04 --> BadMethodCallException: Call to undefined method App\Models\PersonajesModel::filtroUniverso
+in SYSTEMPATH\Model.php on line 874.
+ 1 APPPATH\Controllers\Personajes.php(37): CodeIgniter\Model->__call('filtroUniverso', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Personajes->buscarUniverso('1')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personajes))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Drummer\\Documents\\Apprende\\trainee-drangonball-backend\\public\\index.php')
+CRITICAL - 2024-03-04 19:54:22 --> BadMethodCallException: Call to undefined method App\Models\PersonajesModel::tarjetaNombre
+in SYSTEMPATH\Model.php on line 874.
+ 1 APPPATH\Controllers\Personajes.php(51): CodeIgniter\Model->__call('tarjetaNombre', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Personajes->buscarNombre('Son')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personajes))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Drummer\\Documents\\Apprende\\trainee-drangonball-backend\\public\\index.php')
+CRITICAL - 2024-03-04 19:54:25 --> BadMethodCallException: Call to undefined method App\Models\PersonajesModel::tarjetaNombre
+in SYSTEMPATH\Model.php on line 874.
+ 1 APPPATH\Controllers\Personajes.php(51): CodeIgniter\Model->__call('tarjetaNombre', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Personajes->buscarNombre('1')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personajes))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Drummer\\Documents\\Apprende\\trainee-drangonball-backend\\public\\index.php')
+CRITICAL - 2024-03-04 19:54:28 --> BadMethodCallException: Call to undefined method App\Models\PersonajesModel::tarjetaNombre
+in SYSTEMPATH\Model.php on line 874.
+ 1 APPPATH\Controllers\Personajes.php(51): CodeIgniter\Model->__call('tarjetaNombre', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Personajes->buscarNombre('2')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personajes))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Drummer\\Documents\\Apprende\\trainee-drangonball-backend\\public\\index.php')
+CRITICAL - 2024-03-04 19:56:12 --> BadMethodCallException: Call to undefined method App\Models\PersonajesModel::filtroUniverso
+in SYSTEMPATH\Model.php on line 874.
+ 1 APPPATH\Controllers\Personajes.php(37): CodeIgniter\Model->__call('filtroUniverso', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Personajes->buscarUniverso('1')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personajes))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Drummer\\Documents\\Apprende\\trainee-drangonball-backend\\public\\index.php')
+CRITICAL - 2024-03-04 19:59:55 --> BadMethodCallException: Call to undefined method App\Models\PersonajesModel::filtroUniverso
+in SYSTEMPATH\Model.php on line 874.
+ 1 APPPATH\Controllers\Personajes.php(37): CodeIgniter\Model->__call('filtroUniverso', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Personajes->filtroUniversos('2')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personajes))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Drummer\\Documents\\Apprende\\trainee-drangonball-backend\\public\\index.php')
+CRITICAL - 2024-03-04 20:00:09 --> BadMethodCallException: Call to undefined method App\Models\PersonajesModel::filtroUniverso
+in SYSTEMPATH\Model.php on line 874.
+ 1 APPPATH\Controllers\Personajes.php(37): CodeIgniter\Model->__call('filtroUniverso', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Personajes->filtroUniversos('2')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personajes))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Drummer\\Documents\\Apprende\\trainee-drangonball-backend\\public\\index.php')
+CRITICAL - 2024-03-04 20:00:11 --> BadMethodCallException: Call to undefined method App\Models\PersonajesModel::filtroUniverso
+in SYSTEMPATH\Model.php on line 874.
+ 1 APPPATH\Controllers\Personajes.php(37): CodeIgniter\Model->__call('filtroUniverso', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Personajes->filtroUniversos('2')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personajes))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Drummer\\Documents\\Apprende\\trainee-drangonball-backend\\public\\index.php')
+CRITICAL - 2024-03-04 20:00:16 --> BadMethodCallException: Call to undefined method App\Models\PersonajesModel::filtroUniverso
+in SYSTEMPATH\Model.php on line 874.
+ 1 APPPATH\Controllers\Personajes.php(37): CodeIgniter\Model->__call('filtroUniverso', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Personajes->filtroUniversos('1')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personajes))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Drummer\\Documents\\Apprende\\trainee-drangonball-backend\\public\\index.php')
+CRITICAL - 2024-03-04 20:00:44 --> BadMethodCallException: Call to undefined method App\Models\PersonajesModel::filtroUniverso
+in SYSTEMPATH\Model.php on line 874.
+ 1 APPPATH\Controllers\Personajes.php(37): CodeIgniter\Model->__call('filtroUniverso', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Personajes->filtroUniversos('1')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personajes))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Drummer\\Documents\\Apprende\\trainee-drangonball-backend\\public\\index.php')
+CRITICAL - 2024-03-04 20:00:47 --> BadMethodCallException: Call to undefined method App\Models\PersonajesModel::filtroUniverso
+in SYSTEMPATH\Model.php on line 874.
+ 1 APPPATH\Controllers\Personajes.php(37): CodeIgniter\Model->__call('filtroUniverso', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Personajes->filtroUniversos('2')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personajes))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Drummer\\Documents\\Apprende\\trainee-drangonball-backend\\public\\index.php')
+CRITICAL - 2024-03-04 20:02:08 --> BadMethodCallException: Call to undefined method App\Models\PersonajesModel::filtroUniverso
+in SYSTEMPATH\Model.php on line 874.
+ 1 APPPATH\Controllers\Personajes.php(37): CodeIgniter\Model->__call('filtroUniverso', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Personajes->filtroUniversos('1')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personajes))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Drummer\\Documents\\Apprende\\trainee-drangonball-backend\\public\\index.php')
+CRITICAL - 2024-03-04 20:07:51 --> BadMethodCallException: Call to undefined method App\Models\PersonajesModel::filtroNombre
+in SYSTEMPATH\Model.php on line 874.
+ 1 APPPATH\Controllers\Personajes.php(51): CodeIgniter\Model->__call('filtroNombre', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Personajes->filtroNombre('Son-Goku')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personajes))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Drummer\\Documents\\Apprende\\trainee-drangonball-backend\\public\\index.php')
+CRITICAL - 2024-03-04 20:08:45 --> BadMethodCallException: Call to undefined method App\Models\PersonajesModel::filtroNombre
+in SYSTEMPATH\Model.php on line 874.
+ 1 APPPATH\Controllers\Personajes.php(51): CodeIgniter\Model->__call('filtroNombre', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Personajes->filtroNombre('Goku')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personajes))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Drummer\\Documents\\Apprende\\trainee-drangonball-backend\\public\\index.php')
