@@ -42,3 +42,9 @@ El equipo de backend tendrá el mismo plazo que el equipo de frontend, tres dias
 ## Nota Importante:
 Este proyecto servirá como una prueba técnica para evaluar las habilidades y competencias del equipo en el desarrollo de backend, específicamente en el diseño y la implementación de APIs RESTful y la gestión eficiente de bases de datos.
 
+## Enlace Documentación:
+https://documenter.getpostman.com/view/31393474/2sA2xfXDBE#5cffc6d1-ed53-423a-b8d5-f565d444ff48
+
+
+
+
