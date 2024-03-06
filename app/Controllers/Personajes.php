@@ -58,4 +58,18 @@ class Personajes extends BaseController
             return $this->response->setStatusCode(204);
         }
     }
+
+    public function tarjetaPersonaje($id)
+    {
+        //lista los datos
+        $lista = $this->personajes->tarjetaID($id);
+        // revisa si hay datos
+        if (!empty($lista)) {
+            // transforma los datos a json
+            return $this->response->setJSON($lista);
+        } else {
+            // retorna código error si no existen
+            return $this->response->setStatusCode(204);
+        }
+    }
 }

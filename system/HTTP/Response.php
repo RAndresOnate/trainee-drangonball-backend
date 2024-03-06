@@ -234,7 +234,7 @@ class Response extends Message implements ResponseInterface
     public function getReasonPhrase()
     {
         if ($this->reason === '') {
-            return ! empty($this->statusCode) ? static::$statusCodes[$this->statusCode] : '';
+            return !empty($this->statusCode) ? static::$statusCodes[$this->statusCode] : '';
         }
 
         return $this->reason;

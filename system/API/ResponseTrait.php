@@ -67,7 +67,7 @@ trait ResponseTrait
      *
      * @var string
      */
-    protected $format = 'json';
+    protected $format = '';
 
     /**
      * Current Formatter instance. This is usually set by ResponseTrait::format
@@ -122,7 +122,7 @@ trait ResponseTrait
      */
     protected function fail($messages, int $status = 400, ?string $code = null, string $customMessage = '')
     {
-        if (! is_array($messages)) {
+        if (!is_array($messages)) {
             $messages = ['error' => $messages];
         }
 
@@ -318,7 +318,7 @@ trait ResponseTrait
 
         // Determine correct response type through content negotiation if not explicitly declared
         if (
-            ! in_array($this->format, ['json', 'xml'], true)
+            !in_array($this->format, ['json', 'xml'], true)
             && $this->request instanceof IncomingRequest
         ) {
             $mime = $this->request->negotiate(
@@ -331,7 +331,7 @@ trait ResponseTrait
         $this->response->setContentType($mime);
 
         // if we don't have a formatter, make one
-        if (! isset($this->formatter)) {
+        if (!isset($this->formatter)) {
             // if no formatter, use the default
             $this->formatter = $format->getFormatter($mime);
         }

@@ -1,0 +1,32 @@
+CRITICAL - 2024-03-05 15:19:23 --> BadMethodCallException: Call to undefined method App\Models\PersonajesModel::tarjetaID
+in SYSTEMPATH\Model.php on line 874.
+ 1 APPPATH\Controllers\Personajes.php(65): CodeIgniter\Model->__call('tarjetaID', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Personajes->tarjetaPersonaje('1')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personajes))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Drummer\\Documents\\Apprende\\trainee-drangonball-backend\\public\\index.php')
+CRITICAL - 2024-03-05 18:28:43 --> Error: Class "App\Filters\Cors" not found
+in SYSTEMPATH\Filters\Filters.php on line 175.
+ 1 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('tarjeta/6', 'before')
+ 2 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Drummer\\Documents\\Apprende\\trainee-drangonball-backend\\public\\index.php')
+CRITICAL - 2024-03-05 18:28:47 --> Error: Class "App\Filters\Cors" not found
+in SYSTEMPATH\Filters\Filters.php on line 175.
+ 1 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('tarjeta/7', 'before')
+ 2 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Drummer\\Documents\\Apprende\\trainee-drangonball-backend\\public\\index.php')
+CRITICAL - 2024-03-05 18:28:49 --> Error: Class "App\Filters\Cors" not found
+in SYSTEMPATH\Filters\Filters.php on line 175.
+ 1 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('personajes', 'before')
+ 2 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Drummer\\Documents\\Apprende\\trainee-drangonball-backend\\public\\index.php')
+CRITICAL - 2024-03-05 18:28:56 --> Error: Class "App\Filters\Cors" not found
+in SYSTEMPATH\Filters\Filters.php on line 175.
+ 1 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('personajes', 'before')
+ 2 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Drummer\\Documents\\Apprende\\trainee-drangonball-backend\\public\\index.php')
