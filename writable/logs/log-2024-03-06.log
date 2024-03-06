@@ -176,3 +176,497 @@ ORDER BY `P`.`NOMBRE_PERSONAJE` ASC', [...], false)
  9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
 10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
 11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Drummer\\Documents\\Apprende\\trainee-drangonball-backend\\public\\index.php')
+CRITICAL - 2024-03-06 15:44:31 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Models\PersonajesModel.php on line 155.
+ 1 APPPATH\Controllers\Personajes.php(65): App\Models\PersonajesModel->tarjetaID('1')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Personajes->tarjetaPersonaje('1')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personajes))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Drummer\\Documents\\Apprende\\trainee-drangonball-backend\\public\\index.php')
+CRITICAL - 2024-03-06 15:44:48 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Models\PersonajesModel.php on line 155.
+ 1 APPPATH\Controllers\Personajes.php(65): App\Models\PersonajesModel->tarjetaID('1')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Personajes->tarjetaPersonaje('1')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personajes))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Drummer\\Documents\\Apprende\\trainee-drangonball-backend\\public\\index.php')
+CRITICAL - 2024-03-06 15:45:32 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Models\PersonajesModel.php on line 152.
+ 1 APPPATH\Controllers\Personajes.php(65): App\Models\PersonajesModel->tarjetaID('1')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Personajes->tarjetaPersonaje('1')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personajes))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Drummer\\Documents\\Apprende\\trainee-drangonball-backend\\public\\index.php')
+CRITICAL - 2024-03-06 15:46:56 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Models\PersonajesModel.php on line 152.
+ 1 APPPATH\Controllers\Personajes.php(65): App\Models\PersonajesModel->tarjetaID('1')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Personajes->tarjetaPersonaje('1')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personajes))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Drummer\\Documents\\Apprende\\trainee-drangonball-backend\\public\\index.php')
+CRITICAL - 2024-03-06 15:48:29 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Models\PersonajesModel.php on line 121.
+ 1 APPPATH\Controllers\Personajes.php(51): App\Models\PersonajesModel->filtroNombre('Goku')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Personajes->filtroNombre('Goku')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personajes))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Drummer\\Documents\\Apprende\\trainee-drangonball-backend\\public\\index.php')
+CRITICAL - 2024-03-06 15:48:52 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Models\PersonajesModel.php on line 121.
+ 1 APPPATH\Controllers\Personajes.php(51): App\Models\PersonajesModel->filtroNombre('Goku')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Personajes->filtroNombre('Goku')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personajes))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Drummer\\Documents\\Apprende\\trainee-drangonball-backend\\public\\index.php')
+CRITICAL - 2024-03-06 15:49:22 --> Error: Cannot use object of type stdClass as array
+in APPPATH\Models\PersonajesModel.php on line 121.
+ 1 APPPATH\Controllers\Personajes.php(51): App\Models\PersonajesModel->filtroNombre('Goku')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Personajes->filtroNombre('Goku')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personajes))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Drummer\\Documents\\Apprende\\trainee-drangonball-backend\\public\\index.php')
+CRITICAL - 2024-03-06 15:51:49 --> Error: Cannot use object of type stdClass as array
+in APPPATH\Models\PersonajesModel.php on line 121.
+ 1 APPPATH\Controllers\Personajes.php(51): App\Models\PersonajesModel->filtroNombre('Goku')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Personajes->filtroNombre('Goku')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personajes))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Drummer\\Documents\\Apprende\\trainee-drangonball-backend\\public\\index.php')
+CRITICAL - 2024-03-06 15:51:52 --> Error: Cannot use object of type stdClass as array
+in APPPATH\Models\PersonajesModel.php on line 121.
+ 1 APPPATH\Controllers\Personajes.php(51): App\Models\PersonajesModel->filtroNombre('Goku')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Personajes->filtroNombre('Goku')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personajes))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Drummer\\Documents\\Apprende\\trainee-drangonball-backend\\public\\index.php')
+CRITICAL - 2024-03-06 15:51:59 --> Error: Cannot use object of type stdClass as array
+in APPPATH\Models\PersonajesModel.php on line 123.
+ 1 APPPATH\Controllers\Personajes.php(51): App\Models\PersonajesModel->filtroNombre('Goku')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Personajes->filtroNombre('Goku')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personajes))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Drummer\\Documents\\Apprende\\trainee-drangonball-backend\\public\\index.php')
+CRITICAL - 2024-03-06 15:52:06 --> Error: Cannot use object of type stdClass as array
+in APPPATH\Models\PersonajesModel.php on line 123.
+ 1 APPPATH\Controllers\Personajes.php(51): App\Models\PersonajesModel->filtroNombre('Goku')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Personajes->filtroNombre('Goku')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personajes))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Drummer\\Documents\\Apprende\\trainee-drangonball-backend\\public\\index.php')
+CRITICAL - 2024-03-06 15:54:28 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Models\PersonajesModel.php on line 116.
+ 1 APPPATH\Controllers\Personajes.php(51): App\Models\PersonajesModel->filtroNombre('Goku')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Personajes->filtroNombre('Goku')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personajes))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Drummer\\Documents\\Apprende\\trainee-drangonball-backend\\public\\index.php')
+CRITICAL - 2024-03-06 15:55:10 --> Error: Cannot use object of type stdClass as array
+in APPPATH\Models\PersonajesModel.php on line 116.
+ 1 APPPATH\Controllers\Personajes.php(51): App\Models\PersonajesModel->filtroNombre('Goku')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Personajes->filtroNombre('Goku')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personajes))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Drummer\\Documents\\Apprende\\trainee-drangonball-backend\\public\\index.php')
+CRITICAL - 2024-03-06 15:57:54 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Models\PersonajesModel.php on line 156.
+ 1 APPPATH\Controllers\Personajes.php(65): App\Models\PersonajesModel->tarjetaID('7')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Personajes->tarjetaPersonaje('7')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personajes))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Drummer\\Documents\\Apprende\\trainee-drangonball-backend\\public\\index.php')
+CRITICAL - 2024-03-06 15:57:54 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Models\PersonajesModel.php on line 156.
+ 1 APPPATH\Controllers\Personajes.php(65): App\Models\PersonajesModel->tarjetaID('6')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Personajes->tarjetaPersonaje('6')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personajes))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Drummer\\Documents\\Apprende\\trainee-drangonball-backend\\public\\index.php')
+CRITICAL - 2024-03-06 15:57:55 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Models\PersonajesModel.php on line 156.
+ 1 APPPATH\Controllers\Personajes.php(65): App\Models\PersonajesModel->tarjetaID('21')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Personajes->tarjetaPersonaje('21')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personajes))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Drummer\\Documents\\Apprende\\trainee-drangonball-backend\\public\\index.php')
+CRITICAL - 2024-03-06 15:57:56 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Models\PersonajesModel.php on line 156.
+ 1 APPPATH\Controllers\Personajes.php(65): App\Models\PersonajesModel->tarjetaID('14')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Personajes->tarjetaPersonaje('14')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personajes))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Drummer\\Documents\\Apprende\\trainee-drangonball-backend\\public\\index.php')
+CRITICAL - 2024-03-06 15:59:15 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Models\PersonajesModel.php on line 156.
+ 1 APPPATH\Controllers\Personajes.php(65): App\Models\PersonajesModel->tarjetaID('16')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Personajes->tarjetaPersonaje('16')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personajes))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Drummer\\Documents\\Apprende\\trainee-drangonball-backend\\public\\index.php')
+CRITICAL - 2024-03-06 15:59:15 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Models\PersonajesModel.php on line 156.
+ 1 APPPATH\Controllers\Personajes.php(65): App\Models\PersonajesModel->tarjetaID('7')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Personajes->tarjetaPersonaje('7')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personajes))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Drummer\\Documents\\Apprende\\trainee-drangonball-backend\\public\\index.php')
+CRITICAL - 2024-03-06 15:59:22 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Models\PersonajesModel.php on line 156.
+ 1 APPPATH\Controllers\Personajes.php(65): App\Models\PersonajesModel->tarjetaID('7')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Personajes->tarjetaPersonaje('7')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personajes))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Drummer\\Documents\\Apprende\\trainee-drangonball-backend\\public\\index.php')
+CRITICAL - 2024-03-06 15:59:26 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Models\PersonajesModel.php on line 156.
+ 1 APPPATH\Controllers\Personajes.php(65): App\Models\PersonajesModel->tarjetaID('6')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Personajes->tarjetaPersonaje('6')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personajes))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Drummer\\Documents\\Apprende\\trainee-drangonball-backend\\public\\index.php')
+CRITICAL - 2024-03-06 15:59:26 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Models\PersonajesModel.php on line 156.
+ 1 APPPATH\Controllers\Personajes.php(65): App\Models\PersonajesModel->tarjetaID('21')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Personajes->tarjetaPersonaje('21')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personajes))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Drummer\\Documents\\Apprende\\trainee-drangonball-backend\\public\\index.php')
+CRITICAL - 2024-03-06 15:59:27 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Models\PersonajesModel.php on line 156.
+ 1 APPPATH\Controllers\Personajes.php(65): App\Models\PersonajesModel->tarjetaID('21')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Personajes->tarjetaPersonaje('21')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personajes))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Drummer\\Documents\\Apprende\\trainee-drangonball-backend\\public\\index.php')
+CRITICAL - 2024-03-06 15:59:30 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Models\PersonajesModel.php on line 156.
+ 1 APPPATH\Controllers\Personajes.php(65): App\Models\PersonajesModel->tarjetaID('14')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Personajes->tarjetaPersonaje('14')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personajes))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Drummer\\Documents\\Apprende\\trainee-drangonball-backend\\public\\index.php')
+CRITICAL - 2024-03-06 15:59:31 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Models\PersonajesModel.php on line 156.
+ 1 APPPATH\Controllers\Personajes.php(65): App\Models\PersonajesModel->tarjetaID('14')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Personajes->tarjetaPersonaje('14')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personajes))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Drummer\\Documents\\Apprende\\trainee-drangonball-backend\\public\\index.php')
+CRITICAL - 2024-03-06 15:59:42 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Models\PersonajesModel.php on line 156.
+ 1 APPPATH\Controllers\Personajes.php(65): App\Models\PersonajesModel->tarjetaID('40')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Personajes->tarjetaPersonaje('40')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personajes))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Drummer\\Documents\\Apprende\\trainee-drangonball-backend\\public\\index.php')
+CRITICAL - 2024-03-06 15:59:42 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Models\PersonajesModel.php on line 156.
+ 1 APPPATH\Controllers\Personajes.php(65): App\Models\PersonajesModel->tarjetaID('3')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Personajes->tarjetaPersonaje('3')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personajes))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Drummer\\Documents\\Apprende\\trainee-drangonball-backend\\public\\index.php')
+CRITICAL - 2024-03-06 15:59:43 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Models\PersonajesModel.php on line 156.
+ 1 APPPATH\Controllers\Personajes.php(65): App\Models\PersonajesModel->tarjetaID('26')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Personajes->tarjetaPersonaje('26')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personajes))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Drummer\\Documents\\Apprende\\trainee-drangonball-backend\\public\\index.php')
+CRITICAL - 2024-03-06 15:59:43 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Models\PersonajesModel.php on line 156.
+ 1 APPPATH\Controllers\Personajes.php(65): App\Models\PersonajesModel->tarjetaID('34')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Personajes->tarjetaPersonaje('34')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personajes))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Drummer\\Documents\\Apprende\\trainee-drangonball-backend\\public\\index.php')
+CRITICAL - 2024-03-06 15:59:44 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Models\PersonajesModel.php on line 156.
+ 1 APPPATH\Controllers\Personajes.php(65): App\Models\PersonajesModel->tarjetaID('9')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Personajes->tarjetaPersonaje('9')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personajes))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Drummer\\Documents\\Apprende\\trainee-drangonball-backend\\public\\index.php')
+CRITICAL - 2024-03-06 15:59:46 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Models\PersonajesModel.php on line 156.
+ 1 APPPATH\Controllers\Personajes.php(65): App\Models\PersonajesModel->tarjetaID('27')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Personajes->tarjetaPersonaje('27')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personajes))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Drummer\\Documents\\Apprende\\trainee-drangonball-backend\\public\\index.php')
+CRITICAL - 2024-03-06 15:59:46 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Models\PersonajesModel.php on line 156.
+ 1 APPPATH\Controllers\Personajes.php(65): App\Models\PersonajesModel->tarjetaID('10')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Personajes->tarjetaPersonaje('10')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personajes))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Drummer\\Documents\\Apprende\\trainee-drangonball-backend\\public\\index.php')
+CRITICAL - 2024-03-06 15:59:47 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Models\PersonajesModel.php on line 156.
+ 1 APPPATH\Controllers\Personajes.php(65): App\Models\PersonajesModel->tarjetaID('2')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Personajes->tarjetaPersonaje('2')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personajes))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Drummer\\Documents\\Apprende\\trainee-drangonball-backend\\public\\index.php')
+CRITICAL - 2024-03-06 15:59:47 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Models\PersonajesModel.php on line 156.
+ 1 APPPATH\Controllers\Personajes.php(65): App\Models\PersonajesModel->tarjetaID('37')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Personajes->tarjetaPersonaje('37')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personajes))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Drummer\\Documents\\Apprende\\trainee-drangonball-backend\\public\\index.php')
+CRITICAL - 2024-03-06 15:59:48 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Models\PersonajesModel.php on line 156.
+ 1 APPPATH\Controllers\Personajes.php(65): App\Models\PersonajesModel->tarjetaID('39')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Personajes->tarjetaPersonaje('39')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personajes))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Drummer\\Documents\\Apprende\\trainee-drangonball-backend\\public\\index.php')
+CRITICAL - 2024-03-06 15:59:49 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Models\PersonajesModel.php on line 156.
+ 1 APPPATH\Controllers\Personajes.php(65): App\Models\PersonajesModel->tarjetaID('39')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Personajes->tarjetaPersonaje('39')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personajes))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Drummer\\Documents\\Apprende\\trainee-drangonball-backend\\public\\index.php')
+CRITICAL - 2024-03-06 15:59:59 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Models\PersonajesModel.php on line 156.
+ 1 APPPATH\Controllers\Personajes.php(65): App\Models\PersonajesModel->tarjetaID('22')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Personajes->tarjetaPersonaje('22')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personajes))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Drummer\\Documents\\Apprende\\trainee-drangonball-backend\\public\\index.php')
+CRITICAL - 2024-03-06 16:00:12 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Models\PersonajesModel.php on line 156.
+ 1 APPPATH\Controllers\Personajes.php(65): App\Models\PersonajesModel->tarjetaID('7')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Personajes->tarjetaPersonaje('7')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personajes))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Drummer\\Documents\\Apprende\\trainee-drangonball-backend\\public\\index.php')
+CRITICAL - 2024-03-06 16:00:15 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Models\PersonajesModel.php on line 156.
+ 1 APPPATH\Controllers\Personajes.php(65): App\Models\PersonajesModel->tarjetaID('21')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Personajes->tarjetaPersonaje('21')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personajes))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Drummer\\Documents\\Apprende\\trainee-drangonball-backend\\public\\index.php')
+CRITICAL - 2024-03-06 16:00:21 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Models\PersonajesModel.php on line 156.
+ 1 APPPATH\Controllers\Personajes.php(65): App\Models\PersonajesModel->tarjetaID('6')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Personajes->tarjetaPersonaje('6')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personajes))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Drummer\\Documents\\Apprende\\trainee-drangonball-backend\\public\\index.php')
+CRITICAL - 2024-03-06 16:00:25 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Models\PersonajesModel.php on line 156.
+ 1 APPPATH\Controllers\Personajes.php(65): App\Models\PersonajesModel->tarjetaID('21')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Personajes->tarjetaPersonaje('21')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personajes))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Drummer\\Documents\\Apprende\\trainee-drangonball-backend\\public\\index.php')
+CRITICAL - 2024-03-06 16:00:29 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Models\PersonajesModel.php on line 156.
+ 1 APPPATH\Controllers\Personajes.php(65): App\Models\PersonajesModel->tarjetaID('25')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Personajes->tarjetaPersonaje('25')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personajes))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Drummer\\Documents\\Apprende\\trainee-drangonball-backend\\public\\index.php')
+CRITICAL - 2024-03-06 16:00:30 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Models\PersonajesModel.php on line 156.
+ 1 APPPATH\Controllers\Personajes.php(65): App\Models\PersonajesModel->tarjetaID('18')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Personajes->tarjetaPersonaje('18')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personajes))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Drummer\\Documents\\Apprende\\trainee-drangonball-backend\\public\\index.php')
+CRITICAL - 2024-03-06 16:00:30 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Models\PersonajesModel.php on line 156.
+ 1 APPPATH\Controllers\Personajes.php(65): App\Models\PersonajesModel->tarjetaID('15')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Personajes->tarjetaPersonaje('15')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personajes))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Drummer\\Documents\\Apprende\\trainee-drangonball-backend\\public\\index.php')
+CRITICAL - 2024-03-06 16:00:30 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Models\PersonajesModel.php on line 156.
+ 1 APPPATH\Controllers\Personajes.php(65): App\Models\PersonajesModel->tarjetaID('11')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Personajes->tarjetaPersonaje('11')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personajes))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Drummer\\Documents\\Apprende\\trainee-drangonball-backend\\public\\index.php')
+CRITICAL - 2024-03-06 16:00:31 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Models\PersonajesModel.php on line 156.
+ 1 APPPATH\Controllers\Personajes.php(65): App\Models\PersonajesModel->tarjetaID('31')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Personajes->tarjetaPersonaje('31')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personajes))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Drummer\\Documents\\Apprende\\trainee-drangonball-backend\\public\\index.php')
+CRITICAL - 2024-03-06 16:00:31 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Models\PersonajesModel.php on line 156.
+ 1 APPPATH\Controllers\Personajes.php(65): App\Models\PersonajesModel->tarjetaID('38')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Personajes->tarjetaPersonaje('38')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personajes))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Drummer\\Documents\\Apprende\\trainee-drangonball-backend\\public\\index.php')
+CRITICAL - 2024-03-06 16:00:35 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Models\PersonajesModel.php on line 156.
+ 1 APPPATH\Controllers\Personajes.php(65): App\Models\PersonajesModel->tarjetaID('30')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Personajes->tarjetaPersonaje('30')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personajes))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Drummer\\Documents\\Apprende\\trainee-drangonball-backend\\public\\index.php')
+CRITICAL - 2024-03-06 16:00:55 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Models\PersonajesModel.php on line 156.
+ 1 APPPATH\Controllers\Personajes.php(65): App\Models\PersonajesModel->tarjetaID('7')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Personajes->tarjetaPersonaje('7')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personajes))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Drummer\\Documents\\Apprende\\trainee-drangonball-backend\\public\\index.php')
+CRITICAL - 2024-03-06 16:01:02 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Models\PersonajesModel.php on line 156.
+ 1 APPPATH\Controllers\Personajes.php(65): App\Models\PersonajesModel->tarjetaID('23')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Personajes->tarjetaPersonaje('23')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personajes))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Drummer\\Documents\\Apprende\\trainee-drangonball-backend\\public\\index.php')
+CRITICAL - 2024-03-06 19:18:50 --> Error: Cannot use object of type stdClass as array
+in APPPATH\Models\PersonajesModel.php on line 83.
+ 1 APPPATH\Controllers\Personajes.php(37): App\Models\PersonajesModel->filtroUniverso('1')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Personajes->filtroUniversos('1')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personajes))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Drummer\\Documents\\Apprende\\trainee-drangonball-backend\\public\\index.php')
+CRITICAL - 2024-03-06 19:19:08 --> Error: Cannot use object of type stdClass as array
+in APPPATH\Models\PersonajesModel.php on line 83.
+ 1 APPPATH\Controllers\Personajes.php(37): App\Models\PersonajesModel->filtroUniverso('1')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Personajes->filtroUniversos('1')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personajes))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Drummer\\Documents\\Apprende\\trainee-drangonball-backend\\public\\index.php')
+CRITICAL - 2024-03-06 19:34:14 --> Error: Cannot use object of type stdClass as array
+in APPPATH\Models\PersonajesModel.php on line 76.
+ 1 APPPATH\Controllers\Personajes.php(37): App\Models\PersonajesModel->filtroUniverso('1')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Personajes->filtroUniversos('1')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personajes))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Drummer\\Documents\\Apprende\\trainee-drangonball-backend\\public\\index.php')
+CRITICAL - 2024-03-06 19:34:32 --> Error: Cannot use object of type stdClass as array
+in APPPATH\Models\PersonajesModel.php on line 76.
+ 1 APPPATH\Controllers\Personajes.php(37): App\Models\PersonajesModel->filtroUniverso('1')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Personajes->filtroUniversos('1')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personajes))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Drummer\\Documents\\Apprende\\trainee-drangonball-backend\\public\\index.php')
+CRITICAL - 2024-03-06 19:43:47 --> ErrorException: Attempt to read property "ID" on array
+in APPPATH\Models\PersonajesModel.php on line 162.
+ 1 APPPATH\Models\PersonajesModel.php(162): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "ID" on array', 'C:\\Users\\Drummer\\Documents\\Apprende\\trainee-drangonball-backend\\app\\Models\\PersonajesModel.php', 162)
+ 2 APPPATH\Controllers\Personajes.php(65): App\Models\PersonajesModel->tarjetaID('2')
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Personajes->tarjetaPersonaje('2')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personajes))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Drummer\\Documents\\Apprende\\trainee-drangonball-backend\\public\\index.php')
+CRITICAL - 2024-03-06 19:45:51 --> Error: Attempt to assign property "PODERES" on array
+in APPPATH\Models\PersonajesModel.php on line 150.
+ 1 APPPATH\Controllers\Personajes.php(65): App\Models\PersonajesModel->tarjetaID('2')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Personajes->tarjetaPersonaje('2')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personajes))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Drummer\\Documents\\Apprende\\trainee-drangonball-backend\\public\\index.php')
+CRITICAL - 2024-03-06 19:53:22 --> ErrorException: Attempt to read property "ID" on string
+in APPPATH\Models\PersonajesModel.php on line 162.
+ 1 APPPATH\Models\PersonajesModel.php(162): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "ID" on string', 'C:\\Users\\Drummer\\Documents\\Apprende\\trainee-drangonball-backend\\app\\Models\\PersonajesModel.php', 162)
+ 2 APPPATH\Controllers\Personajes.php(65): App\Models\PersonajesModel->tarjetaID('30')
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Personajes->tarjetaPersonaje('30')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personajes))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Drummer\\Documents\\Apprende\\trainee-drangonball-backend\\public\\index.php')
+CRITICAL - 2024-03-06 19:54:52 --> ErrorException: Attempt to read property "ID" on string
+in APPPATH\Models\PersonajesModel.php on line 162.
+ 1 APPPATH\Models\PersonajesModel.php(162): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "ID" on string', 'C:\\Users\\Drummer\\Documents\\Apprende\\trainee-drangonball-backend\\app\\Models\\PersonajesModel.php', 162)
+ 2 APPPATH\Controllers\Personajes.php(65): App\Models\PersonajesModel->tarjetaID('30')
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Personajes->tarjetaPersonaje('30')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personajes))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Drummer\\Documents\\Apprende\\trainee-drangonball-backend\\public\\index.php')
+CRITICAL - 2024-03-06 19:54:55 --> ErrorException: Attempt to read property "ID" on string
+in APPPATH\Models\PersonajesModel.php on line 162.
+ 1 APPPATH\Models\PersonajesModel.php(162): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "ID" on string', 'C:\\Users\\Drummer\\Documents\\Apprende\\trainee-drangonball-backend\\app\\Models\\PersonajesModel.php', 162)
+ 2 APPPATH\Controllers\Personajes.php(65): App\Models\PersonajesModel->tarjetaID('30')
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Personajes->tarjetaPersonaje('30')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personajes))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Drummer\\Documents\\Apprende\\trainee-drangonball-backend\\public\\index.php')
+CRITICAL - 2024-03-06 20:03:03 --> ErrorException: Attempt to read property "ID" on string
+in APPPATH\Models\PersonajesModel.php on line 116.
+ 1 APPPATH\Models\PersonajesModel.php(116): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "ID" on string', 'C:\\Users\\Drummer\\Documents\\Apprende\\trainee-drangonball-backend\\app\\Models\\PersonajesModel.php', 116)
+ 2 APPPATH\Controllers\Personajes.php(51): App\Models\PersonajesModel->filtroNombre('Goku')
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Personajes->filtroNombre('Goku')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personajes))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Drummer\\Documents\\Apprende\\trainee-drangonball-backend\\public\\index.php')
+CRITICAL - 2024-03-06 20:12:17 --> ErrorException: Attempt to read property "ID" on string
+in APPPATH\Models\PersonajesModel.php on line 116.
+ 1 APPPATH\Models\PersonajesModel.php(116): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "ID" on string', 'C:\\Users\\Drummer\\Documents\\Apprende\\trainee-drangonball-backend\\app\\Models\\PersonajesModel.php', 116)
+ 2 APPPATH\Controllers\Personajes.php(51): App\Models\PersonajesModel->filtroNombre('Goku')
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Personajes->filtroNombre('Goku')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personajes))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Drummer\\Documents\\Apprende\\trainee-drangonball-backend\\public\\index.php')

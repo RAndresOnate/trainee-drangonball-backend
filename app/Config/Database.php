@@ -24,12 +24,13 @@ class Database extends Config
     /**
      * The default database connection.
      */
+    //Aquí ingresar los datos para la conexión con la DB
     public array $default = [
         'DSN'          => '',
         'hostname'     => 'localhost',
         'username'     => 'root',
         'password'     => '',
-        'database'     => 'BACK_DRAGONBALL',
+        'database'     => 'BACK_DRAGONBALL', //nombre de la DB
         'DBDriver'     => 'MySQLi',
         'DBPrefix'     => '',
         'pConnect'     => false,
